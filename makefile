@@ -1,6 +1,6 @@
 cc = clang
 flags = -Wall -Wextra -g
-src = 1768
+src = 1768_2
 target = out
 
 all: $(target)
@@ -11,3 +11,5 @@ $(target): $(src)
 run:
 	./$(target)
 
+clean:
+	rm -f $(out) $(target) *~
