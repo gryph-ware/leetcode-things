@@ -41,7 +41,7 @@ int converted(char *str) {
 
 int main() {
 
-  char *roman = "T";
+  char *roman = "MMMCMXCIX";
 
   printf("%d", converted(roman));  
   return EXIT_SUCCESS;  
