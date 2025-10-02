@@ -1,6 +1,6 @@
 cc = clang
 flags = -Wall -Wextra -g
-src = 392
+src = 121
 target = out
 
 all: $(target)
